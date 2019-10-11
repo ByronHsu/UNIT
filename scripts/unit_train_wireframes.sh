@@ -1,0 +1,1 @@
+python train.py --config configs/unit_wireframes_folder.yaml --trainer UNIT

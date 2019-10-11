@@ -43,7 +43,7 @@ input_dim = config['input_dim_a'] if opts.a2b else config['input_dim_b']
 
 # Setup model and data loader
 image_names = ImageFolder(opts.input_folder, transform=None, return_paths=True)
-data_loader = get_data_loader_folder(opts.input_folder, 1, False, new_size=config['new_size_a'], crop=False)
+data_loader = get_data_loader_folder(opts.input_folder, 1, False, new_size=config['new_size'], crop=False)
 
 config['vgg_model_path'] = opts.output_path
 if opts.trainer == 'MUNIT':

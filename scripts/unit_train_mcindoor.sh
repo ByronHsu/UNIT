@@ -1,0 +1,1 @@
+python train.py --config configs/unit_mcindoor_folder.yaml --trainer UNIT

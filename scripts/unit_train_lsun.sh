@@ -1,0 +1,1 @@
+python train.py --config configs/unit_lsun_folder.yaml --trainer UNIT
